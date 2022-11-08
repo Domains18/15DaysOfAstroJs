@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+    position: fixed;
+    
+}
+nav li{
+    color: #fff;
+    font-size: 18px;
+    transition: all 1s ease-in;
+    list-style: none;
+}
+nav li:hover{
+    color: crimson;
+    margin: 1px solid;
+    cursor: pointer;
+}
+.window-scroll {
+    color: red;
+}

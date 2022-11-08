@@ -1,0 +1,16 @@
+section{
+    background: #153462;
+    min-height: 100vh;
+}
+section .title{
+    text-align: center;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+}
+.typewriter{
+    font-size: 60px;
+    padding-top: 80px;
+    color: crimson;
+}
