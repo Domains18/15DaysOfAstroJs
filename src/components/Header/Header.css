@@ -15,8 +15,14 @@ section .title{
     color: crimson;
 }
 .container{
+    margin: 40px;
     color: #fff;
+    padding: 15px 0;;
     font-size: 1.2rem;
+    display: flex;;
+}
+.cont{
+    gap: 50px;
     display: grid;
-    background: grey;
+    grid-template-columns: repeat(3, 1fr);
 }

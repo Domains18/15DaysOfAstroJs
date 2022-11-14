@@ -6,7 +6,7 @@ const Stories = () => {
         {/* returning articles and short short stuff */}
 
         <div className="container">
-            <div>
+            <div className='cont'>
                 <article>
                     <title>Talk to Us</title>
                     <div className="content">
