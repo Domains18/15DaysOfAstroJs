@@ -6,6 +6,7 @@ section .title{
     text-align: center;
 }
 .animation{
+    padding: 10rem;
     display: flex;
     justify-content: center;
 }
@@ -26,3 +27,6 @@ section .title{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+ article a{
+    color: black;
+ }
