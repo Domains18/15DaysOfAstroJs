@@ -1,4 +1,5 @@
 import React from 'react'
+import Stories from '../../Pages/Stories'
 import Typewriter from 'typewriter-effect'
 import './Header.css'
 const Header = () => {
@@ -20,6 +21,7 @@ const Header = () => {
               </div>
             </div>
         </div>
+        <Stories/>
     </section>
   )
 }
