@@ -5,7 +5,7 @@
 .navigation{
     padding: 40px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 nav{
@@ -15,7 +15,7 @@ nav{
     
 }
 nav li{
-    color: #fff;
+    color: black;
     font-size: 18px;
     transition: all 1s ease-in;
     list-style: none;
@@ -24,7 +24,4 @@ nav li:hover{
     color: crimson;
     margin: 1px solid;
     cursor: pointer;
-}
-.window-scroll {
-    color: red;
 }
