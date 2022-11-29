@@ -11,9 +11,9 @@
 .logo{
     position: absolute;
     width: 85px;
-    height: 39px;
+    height: 35px;
     left: 27px;
-    top: 0px;
+    top: 20px;
     border: none;
     color: #fff;
     background: #CF0A0A;
@@ -22,15 +22,15 @@
 .home{
     position: absolute;
     width: 85px;
-    height: 39px;
+    height: 35px;
     left: 27px;
-    top: 110px;
-    font-size: 18px;
+    top: 100px;
     line-height: 22px;
     color: #fff;
     background: #CF0A0A;
     border: none;
     border-radius: 40px;
+    cursor: pointer;
 }
 .search-bar{
     position: absolute;
@@ -46,4 +46,56 @@
 }
 .search-bar::placeholder{
     color: white;
+}
+.search-icon{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 559px;
+    top: 50px;
+    cursor: pointer;
+}
+.line{
+    position: absolute;
+    width: 145px;
+    height: 0px;
+    left: 636px;
+    top: 72px;
+    border: 1px solid #000;
+    transform: rotate(90deg);
+}
+.list-button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 736px;
+    top: 40px;
+    background: #CF0A0A;
+    color: #E5E5E5;
+    border-radius: 8px;
+    border: 0;
+}
+.signup{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 1170px;
+    border: 0;
+    top: 20px;
+    color: #fff;
+    background: #CF0A0A;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.login{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 1170px;
+    top: 100px;
+    color: #fff;
+    background: #CF0A0A;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
 }

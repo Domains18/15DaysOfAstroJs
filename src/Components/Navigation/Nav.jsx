@@ -11,6 +11,14 @@ const Nav = () => {
         <div className="center-content">
           <input className='search-bar' placeholder='I am searching for....'/>
           <AiOutlineSearch className='search-icon'/>
+          <div className="line"></div>
+        </div>
+        <div className="center-left">
+          <button className='list-button'>List Property</button>
+        </div>
+        <div className="left-content">
+          <button className='signup'>SignUp</button>
+          <button className='login'>LogIn</button>
         </div>
     </section>
   )
