@@ -1,11 +1,9 @@
-import Nav from "./components/Nav/Nav";
-import Header from "./components/Header/Header";
+import Nav from "./Components/Navigation/Nav";
 function App() {
   return (
-    <>
-    <Nav/>
-    <Header/>
-    </>
+    <div className="App">
+        <Nav/>
+    </div>
   );
 }
 

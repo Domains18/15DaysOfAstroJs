@@ -1,0 +1,49 @@
+.NavSection {
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    height: 150px;
+    background: #E5E5E5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.logo{
+    position: absolute;
+    width: 85px;
+    height: 39px;
+    left: 27px;
+    top: 0px;
+    border: none;
+    color: #fff;
+    background: #CF0A0A;
+    border-radius: 40px;
+}
+.home{
+    position: absolute;
+    width: 85px;
+    height: 39px;
+    left: 27px;
+    top: 110px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    background: #CF0A0A;
+    border: none;
+    border-radius: 40px;
+}
+.search-bar{
+    position: absolute;
+    text-align: center;
+    width: 327px;
+    height: 42px;
+    color: #fff;
+    top: 40px;
+    left: 274px;
+    background: #CF0A0A;
+    border-radius: 20px;
+    border: 0;
+}
+.search-bar::placeholder{
+    color: white;
+}
