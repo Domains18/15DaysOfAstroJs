@@ -1,0 +1,29 @@
+.header-section{
+    box-sizing: border-box;
+    position: relative;
+    width: 1202px;
+    height: 450px;
+    background: #e5e5e5;
+    top: 50px;
+    left: 70px;
+}
+.right-box{
+    position: relative;
+    width: 327px;
+    height: 370px;
+    left: 44px;
+    top: 45px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+.left-box{
+    position: relative;
+    width: 327px;
+    height: 370px;
+    left: 710px;
+    top: -327px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
