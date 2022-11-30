@@ -1,0 +1,11 @@
+.footer-section{
+    box-sizing: border-box;
+    position: relative;
+    width: 1202px;
+    height: 400px;
+    background: rgba(0,0,0,0.8);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 8px;
+    top: 150px;
+    left: 70px;
+}
