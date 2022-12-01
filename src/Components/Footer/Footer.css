@@ -1,3 +1,4 @@
+
 .footer-section{
     box-sizing: border-box;
     position: relative;
@@ -5,7 +6,149 @@
     height: 400px;
     background: rgba(0,0,0,0.8);
     border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 8px;
+    border-radius: 20px;
     top: 150px;
     left: 70px;
+}
+.right-footer{
+    position: relative;
+    width: 502px;
+    height: 326px;
+    left: 52px;
+    top: 52px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 20px;
+}
+.left-footer{
+    position: relative;
+    width: 502px;
+    height: 326px;
+    left: 592px;
+    top: -274px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 20px;
+}
+.right-head h2{
+    position: absolute;
+    width: 191px;
+    height: 37px;
+    left: 27px;
+    top: 16px;
+    font-weight: 800;
+    line-height: 29px;
+    color: #EF5B0C;
+}
+.about-p{
+    position: relative;
+    color: white;
+    left: 35px;
+    top: 50px;
+}
+.email{
+    position: absolute;
+    color: #EF5B0C;
+    width: 90px;
+    height: 41px;
+    left: 32px;
+    top: 90px;
+    font-weight: 800;
+    line-height: 29px;
+}
+.call{
+    position: absolute;
+    width: 186px;
+    height: 54px;
+    left: 32px;
+    top: 170px;
+    font-weight: 800;
+    color: #EF5B0C;
+}
+.left-footer h2{
+    position: absolute;
+    width: 165px;
+    height: 36px;
+    left: 18px;
+    top: 33px;
+    font-weight: 800;
+    line-height: 29px;
+    text-decoration: underline;
+    color: #EF5B0C;
+}
+h4{
+    color: #fff;
+    font-weight: 800;
+}
+/* pre tags */
+pre{
+    color: #ffff;
+}
+/* categories */
+.categories{
+    position: absolute;
+    width: 165px;
+    height: 36px;
+    left: 38px;
+    top: 70px;
+    line-height: 29px;
+}
+
+/* List property */
+
+.list{
+    position: absolute;
+    width: 192px;
+    height: 36px;
+    left: 38px;
+    top: 120px;
+    line-height: 29px;
+}
+/* policy */
+
+.policy{
+    position: inherit;
+    width: 165px;
+    height: 36px;
+    left: 38px;
+    top: 170px;
+    line-height: 29px;
+}
+/*  terms and conditions */
+
+.conditions{
+    position: absolute;
+    width: 257px;
+    height: 37px;
+    left: 38px;
+    top: 220px;
+    line-height: 29px;
+}
+
+/* faq */
+
+.faq{
+    position: absolute;
+    width: 291px;
+    height: 33px;
+    left: 38px;
+    top: 270px;
+    line-height: 29px;
+}
+
+/* footer text */
+.footer-txt{
+    position: absolute;
+    width: 603px;
+    height: 50px;
+    left: 310px;
+    top: 400px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #EF5B0C;
+
 }
