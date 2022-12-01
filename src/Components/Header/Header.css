@@ -6,8 +6,10 @@
     background: #e5e5e5;
     top: 50px;
     left: 70px;
+    border-radius: 8px;
 }
 .right-box{
+    padding: 20px 20px 0 ;
     position: relative;
     width: 327px;
     height: 370px;
@@ -19,9 +21,10 @@
 }
 .left-box{
     position: relative;
-    width: 327px;
+    padding: 20px 20px 0;
+    width: 650px;
     height: 370px;
-    left: 710px;
+    left: 500px;
     top: -327px;
     background: #fff;
     border: 1px solid rgba(0,0,0,0.1);
