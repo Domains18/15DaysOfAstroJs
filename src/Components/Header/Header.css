@@ -1,3 +1,5 @@
+/* Header section */
+/* =================================DEFINING CODES==================================== */
 .header-section{
     box-sizing: border-box;
     position: relative;
@@ -8,6 +10,7 @@
     left: 70px;
     border-radius: 8px;
 }
+/* Right box */
 .right-box{
     padding: 20px 20px 0 ;
     position: relative;
@@ -17,8 +20,9 @@
     top: 45px;
     background: #fff;
     border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 6px;
+    border-radius: 40px;
 }
+/* Left box */
 .left-box{
     position: relative;
     padding: 20px 20px 0;
@@ -28,5 +32,23 @@
     top: -327px;
     background: #fff;
     border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 6px;
+    border-radius: 40px;
 }
+/* ============================END OF DEFINING CODES=============================== */
+
+.header-right{
+    display: flex;
+    justify-content: center;
+}
+.categories p{
+    padding: 20px;
+}
+.categories a{
+    text-decoration: none;
+    color: #000;
+}
+.categories .icon{
+    color: #CF0A0A;
+    margin-right: 5px;
+}
+
