@@ -1,0 +1,11 @@
+{
+    "Images":[
+        {
+            "sys": { "id": 1},
+            "fields": {
+                "title": "Background Image",
+                "image" : { "fields" : {"file": {"url": "./Assets/bg1.png"}}}
+            }
+        }
+    ]
+}
